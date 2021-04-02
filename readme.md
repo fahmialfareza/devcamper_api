@@ -34,6 +34,8 @@ node seeder -d
 node seeder -i
 ```
 
+## License
+
 - Version: 1.0.0
 - License: MIT
 - Author: Fahmi Alfareza
