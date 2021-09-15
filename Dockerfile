@@ -1,11 +1,11 @@
-FROM node:latest
+FROM node:14-alpine
 
 WORKDIR /src
 
-ADD package.json /src
+ADD package.json .
 
-RUN npm i --silent
+RUN npm install
 
-ADD . /src
+ADD . .
 
-CMD npm start
+CMD ["npm", "start"]
